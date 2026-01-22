@@ -1,0 +1,26 @@
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# PowerShell
+*.ps1~
+*.psd1~
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Testing
+test/
+*.test.ps1
+
+# Temporary files
+*.tmp
+*.temp
+~$*
