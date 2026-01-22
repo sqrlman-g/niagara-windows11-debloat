@@ -4,7 +4,7 @@
     One-line installer for Windows 11 Niagara Debloat Script
 .DESCRIPTION
     Downloads and executes the latest Windows 11 debloat script for Niagara supervisors.
-    Usage: irm https://raw.githubusercontent.com/YOUR_USERNAME/niagara-windows11-debloat/main/install.ps1 | iex
+    Usage: irm https://raw.githubusercontent.com/sqrlman-g/niagara-windows11-debloat/main/install.ps1 | iex
 #>
 
 $ErrorActionPreference = "Stop"
@@ -40,7 +40,7 @@ Write-Host ""
 
 Write-Host "[2/3] Downloading latest script..." -ForegroundColor Yellow
 
-$scriptUrl = "https://raw.githubusercontent.com/YOUR_USERNAME/niagara-windows11-debloat/main/windows11-niagara-debloat.ps1"
+$scriptUrl = "https://raw.githubusercontent.com/sqrlman-g/niagara-windows11-debloat/main/windows11-niagara-debloat.ps1"
 $downloadPath = "$env:TEMP\windows11-niagara-debloat.ps1"
 
 try {

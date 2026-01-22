@@ -13,14 +13,14 @@ A comprehensive PowerShell script to remove bloatware, disable telemetry, and op
 Run this command in an **elevated PowerShell** window (Run as Administrator):
 
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_USERNAME/niagara-windows11-debloat/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/sqrlman-g/niagara-windows11-debloat/main/install.ps1 | iex
 ```
 
 ### Manual Install
 
 1. Download the script:
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/niagara-windows11-debloat/main/windows11-niagara-debloat.ps1" -OutFile "windows11-niagara-debloat.ps1"
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sqrlman-g/niagara-windows11-debloat/main/windows11-niagara-debloat.ps1" -OutFile "windows11-niagara-debloat.ps1"
    ```
 
 2. Run as Administrator:
@@ -237,8 +237,8 @@ Optimized specifically for Niagara building automation supervisors.
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/niagara-windows11-debloat/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/niagara-windows11-debloat/discussions)
+- **Issues**: [GitHub Issues](https://github.com/sqrlman-g/niagara-windows11-debloat/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/sqrlman-g/niagara-windows11-debloat/discussions)
 
 ## 🔗 Related Projects
 
